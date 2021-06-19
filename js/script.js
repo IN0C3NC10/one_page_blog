@@ -1,29 +1,11 @@
 var en = "0";
 var pt = "1";
-// var bl = "0";
-// var rd = "1";
-// function change(){
-//     if (rd=="1" && bl=="0"){
-//         bl="1";
-//         rd="0";
-//         var style = document.createElement('style');
-//         document.head.appendChild(style);
-//         style.sheet.insertRule('#home:hover {color: darkseagreen}');
-//     }else{
-//         bl="0";
-//         rd="1";
-//         var style = document.createElement('style');
-//         document.head.appendChild(style);
-//         style.sheet.insertRule('#home:hover {color: blue}');
-//     }
-// }
 
 function trans(){
         if (pt=="1" && en=="0"){
             //TRANSLATE FOR ENGLISH
             en="1";
             pt="0";
-            //document.getElementById("tmtrans").innerHTML += "<style>#tmtrans:hover{color:green;}</style>";
             //MENU
             document.getElementById("tmtrans").textContent="PT";
             document.getElementById("altocontraste").textContent="Contrast";
