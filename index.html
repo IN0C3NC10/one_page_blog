@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BRTECH</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="imagem/ico" href="img/icon.ico">
+  <meta name="description" content="Blog desenvolvido por meio da FATEC Jales e elaborado por Bruno Inocêncio." />
+  <meta name="keywords"
+    content="blog,brtech,desenvolvedor-web,desenvolvedor,web,html5,fatec,fatec-jales,sistemas-para-internet,2019,2020,2021,fatec-cloud" />
+  <meta name="author" content="BRTECH" />
+  <link rel="stylesheet" href="css/w3s.css"><!-- CSS W3S -->
+  <link rel="stylesheet" href="css/style.css"><!-- main CSS -->
+  <link rel="stylesheet" href="css/font.css"><!-- font CSS -->
+  <link rel="stylesheet" href="css/contrast.css"><!-- Accessibility -->
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: "Raleway", sans-serif
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
+  <div class="w3-content" style="max-width:1400px">
+    <!-- Header -->
+    <header class="header" role="heading">
+      <div class="main-menu" role="menubar">
+        <a href="#realhome" accesskey="0" role="banner"><strong class="logo"><span
+              class="logospec">BR</span>TECH</strong></a>
+        <nav class="menu" role="menu">
+          <ul>
+            <li role="menuitem"><a href="#realhome" id="home" accesskey="1">HOME</a></li>
+            <li role="menuitem"><a href="#altocontraste" id="altocontraste" accesskey="2"
+                onclick="window.toggleContrast()">Contraste</a></li>
+            <li role="menuitem"><a href="#tmtrans" id="tmtrans" accesskey="3" onclick="trans()">EN</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+    </header>
+    <!-- Grid -->
+    <div id="realhome" class="w3-row" role="main">
+      <!-- Blog entries -->
+      <div class="w3-col l8 s12">
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white" role="article">
+          <div class="w3-container">
+            <h3><b id="tpstitle">BEM VINDO(A)!</b></h3>
+            <h5>Let's Rock, <span id="tpsdate" class="w3-opacity">12 de março, 2020</span></h5>
+          </div>
+
+          <div class="w3-container">
+            <p id="tpscontent">Este blog foi produzido com objetivo de melhorar a indepêndencia dos alunos de Sistemas
+              para Internet, contendo Web Semântica como padrões da W3C visando deixar os alunos o mais próximo possivel
+              do mercado de trabalho.
+              Pois, sua criação é totalmente com base nas habilidades dos alunos com leve auxilio dos professores, para
+              realmente exercitar a criatividade.
+            </p>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white" role="article">
+          <img src="img/fatec.jpg" alt="imagem para o artigo da fatec jales" style="width:100%" role="img">
+          <div class="w3-container">
+            <h3><b>FATEC</b></h3>
+            <h5>FATEC Jales, <span id="tp1date" class="w3-opacity">12 de março, 2020</span></h5>
+          </div>
+          <div class="w3-container">
+            <p id="tp1p1">A Faculdade de Teconologia Prof. José Camargo de Jales tem por sua missão principal formar
+              profissionais competentes, com capacidade de engressar facilmente seus estudantes no mercado de trabalho
+              permanecendo sempre em constante evolução, com proatividade, inovação e de maneira sempre muito ética.</p>
+            <p id="tp1p2">Fundada no dia 10 de setembro de 2007 baseando se no Decreto nº 52.122, de 3 de setembro de
+              2007, publicado no DOE de 4 de setembro de 2007, a <a href="http://www.fatecjales.edu.br/"
+                target="_blank">FATEC</a> Jales é mais umas entre 66 fundadas no estado e administrada pelo Centro Paula
+              Souza. Inicialmente, em 2010, havia apenas o curso de Sistemas para Internet com 70 vagas por semestre,
+              sendo metade de manha e a outra a noite. Mais tarde, em 2014, foi adicionado o curso Gestão Empresarial,
+              com 40 vagas semestrais no período noturno e logo em 2015 foi possível realiza-lo a distância com 40 vagas
+              semestrais.</p>
+            <p id="tp1p3">A Faculdade de Tecnologia “Professor José Camargo”- <a href="http://www.fatecjales.edu.br/"
+                target="_blank">FATEC</a> Jales continua entre as melhores faculdades do país, de acordo com os dados do
+              Índice Geral dos Cursos (IGC) divulgados esta semana pelo Ministério da Educação (MEC). O IGC avalia, por
+              meio de uma escala de 1 a 5, as instituições de ensino superior do país, assim como seus cursos, com base
+              em uma série de elementos, entre os quais a avaliação do Exame Nacional de Desempenho dos Estudantes
+              (Enade) e do perfil dos professores.</p>
+            <p id="tp1p4">Das mais de 2000 instituições avaliadas, somente 20,5% foram registradas nas faixas superiores
+              (notas 4 e 5), entre elas, pelo segundo ano consecutivo, a <a href="http://www.fatecjales.edu.br/"
+                target="_blank">FATEC</a> Jales, que finaliza mais um ano letivo com muita alegria, já que o índice é o
+              principal indicador nacional da qualidade do ensino superior.</p>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Art 2 -->
+        <div class="w3-card-4 w3-margin w3-white" role="article">
+          <img src="img/mojang_meu_ovo.png" alt="imagem para o artigo de gamificação" style="width:100%" role="img">
+          <div class="w3-container">
+            <h3 id="tp2title"><b>GAMIFICAÇÃO NA EDUCAÇÃO A DISTÂNCIA (EAD)</b></h3>
+            <h5>BRTECH, <span id="tp2date" class="w3-opacity">25 de maio, 2020</span></h5>
+          </div>
+          <div class="w3-container">
+            <p id="tp2p1">Algo que vem acompanhando as pessoas desde muito tempo, são os jogos, que promovem a interação
+              das pessoas, conhecimento do novo e a arte de lidar com desafios. Utilizar esse meio na educação é algo
+              que já vem sendo trabalhado a algum tempo, facilita o aprendizado até fora das salas de aula por meio de
+              jogos analógicos ou eletrônicos esse método é chamado de Gamificação.</p>
+            <p id="tp2p2">Basicamente Gamificação é o uso da lógica dos games em outros contextos. Trazendo esses
+              elementos para a educação, a gamificação no processo pedagógico significa usar as estratégias próprias dos
+              jogos para tornar o processo de aprendizado mais atrativo, valendo-se de comportamentos naturais do ser
+              humano como competitividade, socialização, busca por recompensa e prazer pela superação. Especificamente,
+              no caso da educação brasileira, a crescente adesão à gamificação coincide com a introdução da nova Base
+              Nacional Comum Curricular, a BNCC como descrito na <a
+                href="https://revistaeducacao.com.br/2019/07/01/gamificacao-na-sala-de-aula/" target="_blank">Revista
+                Educação</a>.</p>
+            <p id="tp2p3">Não significa apenas recompensar o aluno a cada tarefa realizada, mas sim utilizar o design e
+              as técnicas próprias de jogos para enriquecer o processo de ensino-aprendizagem, promovendo um ambiente
+              atraente e desafiador que estimule os alunos em sua busca pelo conhecimento como citado no próprio site da
+              <a href="https://www.somospar.com.br/como-usar-a-gamificacao-no-processo-pedagogico/"
+                target="_blank">SOMOSPAR</a>.</p>
+            <p id="tp2p4">Atualmente praticamente todo o mundo está em estado de alerta e de quarentena devido a
+              pandemia do COVID-19 (Coronga para os íntimos), nessa hora mais do que nunca vem a necessidade de manter a
+              interação social e educacional a distancia, logo a gamificação é muito bem-vinda.</p>
+            <p id="tp2p5">Sua implementação é dinâmica e deve se adequar e adaptar de acordo com os professores e a
+              própria disciplina, de acordo com o site <a href="https://sae.digital/gamificacao-na-educacao/"
+                target="_blank">SAE Digital</a> alguns pontos que valem ser citados são: definição do público, do
+              problema, do contexto e o objetivo, desenvolver algumas regras, estabelecer recompensa, divirtam-se e
+              aprendam bastante.</p>
+          </div>
+        </div>
+        <hr>
+        <!-- END BLOG ENTRIES -->
+      </div>
+
+      <!-- Introduction menu -->
+      <div class="w3-col l4">
+        <!-- About Card -->
+        <div class="w3-card w3-margin w3-margin-top" role="complementary">
+          <img class="card" src="img/avatar.png" alt="imagem do desenvolvedor">
+          <div class="w3-container w3-white">
+            <h4><b id="tabtitle">Meu nome é Bruno Inocêncio.</b></h4>
+            <p id="tabcontent">Desde de pirralho sempre adorei a área da TI, quando vi e obtive meu primeiro telefone
+              achava surreal tudo o que era possivel fazer com ele, sempre me perguntava como que era fazer tudo
+              aquilo!? Pouco tempo depois consegui meus primeiros jogos no mesmo telefone, jogos em flash que por mais
+              simples que sejam até mesmo para época eu queria muito ser capaz de desenvolvê-los. Após concluir o ensino
+              médio ainda não tinha, por falta de informação o conhecimento sobre como a área de TI havia se expandido
+              ainda sim, queria fazer um curso de informática, infelizmente não encontrei nada do gênero optando pelo
+              curso de Técnico de Administração na Etec de Fernandópolis, graças ao curso acabei me informando melhor.
+              Assim, quando me formei consegui engressar finalmente na área da tecnologia ainda na Etec, onde conheci
+              excelentes profissionais ampliei ainda mais obviamente meu conhecimento sobre tecnologias adorando muito a
+              área de segurança e validações, após e atualmente sou estudante de Sistemas para Internet na <a
+                href="http://www.fatecjales.edu.br/" target="_blank">FATEC</a> Jales, amante de games, animes e
+              programação além de, adorar passar meu tempo livre estudando novidades geeks, escrevendo, lendo histórias
+              e ouvindo muita música, pretendo trabalhar na área e quem sabe futuramente participar do desenvolvimento
+              de um game, <a title="E-Mail"
+                href="mailto:bruno.inocencio@fatec.sp.gov.br?subject=Olá,%20venho%20do%20seu%20blog%20da%20Fatec..."
+                alt="Clique para contato" target="_blank">Clique Aqui para contato</a> via e-mail.</p>
+          </div>
+        </div>
+        <hr>
+
+        <!-- Posts -->
+        <div class="w3-card w3-margin" role="complementary">
+          <div class="w3-container w3-padding">
+            <h4 id="tctitle">Cursos FATEC</h4>
+          </div>
+          <ul class="w3-ul w3-hoverable w3-white">
+            <a title="Site da Fatec - Agronegócio" alt="Site da Fatec - Agronegócio"
+              href="http://www.fatecjales.edu.br/graduacao/agronegocio" accesskey="5" target="_blank">
+              <li class="w3-padding-16">
+                <img src="img/ag.jpg" alt="imagem do agronegócio" class="w3-left w3-margin-right"
+                  style="height:30px;width:50px">
+                <span id="tcsub2" class="w3-large">Agro</span><br>
+                <span id="tccontent2">Agronegócio</span>
+              </li>
+            </a>
+            <a title="Site da Fatec - Análise e Desenvolvimento de Sistemas"
+              alt="Site da Fatec - Análise e Desenvolvimento de Sistemas"
+              href="http://www.fatecjales.edu.br/graduacao/analise-e-desenvolvimento-de-sistemas-ads" accesskey="4"
+              target="_blank">
+              <li class="w3-padding-16">
+                <img src="img/ads.jpg" alt="imagem da análise e desenvolvimento de sistemas"
+                  class="w3-left w3-margin-right" style="width:50px">
+                <span id="tcsub1" class="w3-large">ADS</span><br>
+                <span id="tccontent1">Análise e Desenvolvimento de Sistemas</span>
+              </li>
+            </a>
+            <a title="Site da Fatec - Gestão Empresarial" alt="Site da Fatec - Gestão Empresarial"
+              href="http://www.fatecjales.edu.br/graduacao/gestao-empresarial" accesskey="6" target="_blank">
+              <li class="w3-padding-16">
+                <img src="img/ge.jpg" alt="imagem de gestão empresarial" class="w3-left w3-margin-right"
+                  style="width:50px">
+                <span id="tcsub3" class="w3-large">GE</span><br>
+                <span id="tccontent3">Gestão Empresarial</span>
+              </li>
+            </a>
+            <a title="Site da Fatec - Sistemas para Internet" alt="Site da Fatec - Sistemas para Internet"
+              href="http://www.fatecjales.edu.br/graduacao/sistemas-para-internet" accesskey="7" target="_blank">
+              <li class="w3-padding-16">
+                <img src="img/si.jpg" alt="imagem de sistemas para internet" class="w3-left w3-margin-right"
+                  style="height:30px;width:50px">
+                <span class="w3-large">SI</span><br>
+                <span id="tccontent4">Sistemas para Internet</span>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <!-- END Introduction Menu -->
+      </div>
+      <!-- END GRID -->
+    </div><br>
+    <!-- END content -->
+  </div>
+
+  <!-- Footer -->
+  <footer role="footer">
+    <div class="footer">
+      <p><span id="tf">Copyright&copy 2020 | Quase todos direitos reservados por </span><strong><span
+            class="blue">BR</span>TECH</strong></p>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+  <script src="js/high-contrast.js"></script>
+  <script src=" https://vlibras.gov.br/app/vlibras-plugin.js"></script> <!-- VLibras -->
+  <script> new window.VLibras.Widget(' https://vlibras.gov.br/app');</script> <!-- VLibras -->
+</body>
+
+</html>

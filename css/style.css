@@ -1,0 +1,154 @@
+/* Geral */
+*{
+  font-size: 20px;
+}
+.w3-content{
+  background-color: white;
+}
+.w3-row{
+  padding-top: 100px;
+}
+/* TAG PRE-DEFINIDAS */
+b, strong {font-weight: bold;}
+/*img {border: none; max-width: 100%; vertical-align: middle;}*/
+ul {list-style: none;}
+a {text-decoration: none; color: black;}
+a:hover {color: #005ff3; font-weight: 900;}
+
+/* HEADER E MENU */
+.header{
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #222;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  box-shadow: 0px -3px 14px 0px;
+}
+.main-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin-left: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.logospec{
+  font-size: 60px;
+  color: white;
+  font-family: britannic-bold;
+  background-image: linear-gradient(#005ff3, #00faff);
+  border-radius: 10%;
+  padding: 0% 1% 0% 1%;
+}
+.logo{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: britannic-bold;
+}
+.menu ul { 
+  display: flex;
+  }
+.menu li a{
+  color: white;
+  padding: 20px 10px 20px 10px;
+  font-size: 100%;
+}
+.menu a:hover {
+  color: deepskyblue; 
+  text-shadow: 0px 0px 4px 1px rgba(0,0,0,.08);
+}
+
+/* Card */
+.card{
+  margin: 5% 0 0 20%;
+  border-radius: 10%;
+}
+.l4{
+  padding: 1%;
+}
+
+/* Cursos */
+.w3-padding-16 img{
+  border-radius: 10%;
+}
+
+
+/* INICIO DO FOOTER */
+.footer {
+  position: relative;
+  background-color: #1c1c1c; 
+  width: 100%; 
+  height: auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1rem;
+}
+.blue{
+  background-image: linear-gradient(#005ff3, #00faff);
+  border-radius: 10%;
+  padding: 0% 0.5% 0% 0.5%;
+}
+
+ /* RESPONSIVE CODES */
+
+@media only screen and (max-width: 650px) {
+  /* For mobile phones:  Small and Medium */
+  /* Aumenta o espaçamento do nav p/ esperar o novo */
+  .w3-row{
+    padding-top: 120px;
+  }
+  /* reserva a logo */
+  .logospec, .logo{
+    display: none;
+  }
+  /* altera o layout */
+  .main-menu{
+    justify-content: center;
+    margin-left: -45px;
+    text-align: center;
+    max-width: inherit;
+  }
+  .menu ul{
+    flex-direction: column;
+  }
+  .menu ul a{
+    color: white;
+    padding: 0px 50px 0px 50px;
+  }
+  .menu a:hover {
+    color: white;
+    text-shadow: 0px 0px 4px 1px rgba(0,0,0,.08);
+  }
+  .header{
+    background-color: #1c1c1c;
+    box-shadow: 0px 5px 14px 0px;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 500px){
+  /* For mobile phones: */
+  .logospec, .logo{
+    font-size: 35px;
+  }
+  
+}
+
+@media only screen and (min-width: 440px) and (max-width: 990px){
+  /* For mobile phones: */
+  .card{
+    margin-left: 35%;
+  }
+}
